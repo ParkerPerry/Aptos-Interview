@@ -1,0 +1,12 @@
+[package]
+name = "Aptos_meme_coin"
+authors = ["Parker Perry"]
+version = "0.0.1"
+
+[addresses]
+your_address = "0xfb96ca518d16ccf812c5bac6ca27f5c45b4e3a358e376cfb14f29c5a88a4d86c"
+
+[dependencies]
+AptosFramework = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-framework", rev = "main" }
+MoveStdlib = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/move-stdlib", rev = "main" }
+AptosStdlib = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-stdlib", rev = "main" }

@@ -1,4 +1,4 @@
-# Your Meme Coin Claim Contract
+# Intergalactic Creatures Meme Coin Claim Contract
 
 This project is a Move module for Aptos that enables an administrator to manage a whitelisted token claim for a custom fungible asset called Intergalactic Creatures (IGC).
 
